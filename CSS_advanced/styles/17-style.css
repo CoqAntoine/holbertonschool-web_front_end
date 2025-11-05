@@ -395,33 +395,21 @@ a:active {
 }
 
 .section {
-    margin-top: var(--section-padding);
-    margin-bottom: var(--section-padding);
-    margin-left: var(--section-padding);
-    margin-right: var(--section-padding);
+    padding: var(--section-padding);
 }
 
 .section-header {
     text-align: var(--section-header-align);
-    margin-top: var(--section-header-padding);
-    margin-bottom: var(--section-header-padding);
-    margin-left: var(--section-header-padding);
-    margin-right: var(--section-header-padding);
+    padding: var(--section-header-padding);
 }
 
 .section-body {
-    margin-top: var(--section-body-padding);
-    margin-bottom: var(--section-body-padding);
-    margin-left: var(--section-body-padding);
-    margin-right: var(--section-body-padding);
+    padding: var(--section-body-padding);
 }
 
 .section-footer {
     text-align: var(--section-footer-align);
-    margin-top: var(--section-footer-padding);
-    margin-bottom: var(--section-footer-padding);
-    margin-left: var(--section-footer-padding);
-    margin-right: var(--section-footer-padding);
+    padding: var(--section-footer-padding);
 }
 
 .section-title {
@@ -482,8 +470,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-    margin-top: var(--footer-padding);
-    margin-bottom: var(--footer-padding);
-    margin-left: var(--footer-padding);
-    margin-right: var(--footer-padding);
+    padding: var(--footer-padding);
 }
