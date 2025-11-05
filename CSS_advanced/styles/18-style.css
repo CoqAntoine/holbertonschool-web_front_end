@@ -386,10 +386,7 @@ body {
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
-    margin-top: var(--nav-item-margin);
-    margin-bottom: var(--nav-item-margin);
-    margin-right: var(--nav-item-margin);
-    margin-left: var(--nav-item-margin);
+    margin: var(--nav-item-margin);
 }
 
 .nav-link {
